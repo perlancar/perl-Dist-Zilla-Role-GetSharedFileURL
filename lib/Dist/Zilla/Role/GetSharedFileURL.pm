@@ -68,7 +68,7 @@ sub get_shared_file_url {
                 $github_repo,
                 uri_escape($path),
             );
-        } elsif () {
+        } elsif ($hosting eq 'gitlab') {
             $url = sprintf(
                 "https://gitlab.com/%s/%s/raw/master/%s",
                 $gitlab_user,
