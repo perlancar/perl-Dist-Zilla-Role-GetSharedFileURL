@@ -2,3 +2,4 @@ Dist-Zilla-Role-GetSharedFileURL-*
 .build
 *~
 nytprof*
+.DS_Store
